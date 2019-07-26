@@ -1,0 +1,84 @@
+h2.main-heading {
+    background: #300e0d;
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+.cr-main {
+    background: #cab6b5;
+}
+
+.cr-heading {
+    margin-top: 75px;
+    font-weight: bold;
+}
+
+.cr-heading h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cr-heading p {
+    font-size: 16px;
+}
+
+.form {
+    margin-top: 50px;
+    text-indent: 13px;
+}
+
+.row.form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form .d-block {
+    margin-bottom: 13px;
+}
+
+.row.form input {
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+}
+
+input#file {
+    width: 130px;
+    padding-top: 30px;
+    height: 40px;
+}
+
+input#file:before {
+    content: "Upload";
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: #b7b7b7;
+    margin-bottom: -60px;
+    z-index: 7;
+    position: relative;
+    top: -30px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+button[type=submit] {
+    border: none;
+    background: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+button[type=submit] img {
+    width: 70px;
+}
+
+@media screen and (min-width: 400px) {    
+    button[type=submit] {
+        margin-left: 100px;
+    }
+}

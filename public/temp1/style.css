@@ -1,0 +1,448 @@
+body.home {
+    background: #300e0d;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hm-top .container {}
+
+.brand-area {
+    margin-top: 20px;
+}
+
+.brand-area .top-link {color: white;text-decoration: none;border: 1px solid;padding: 7px 13px;}
+
+.header-text {
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.main-heading {
+    font-size: 1.7em;
+}
+
+.start-proc-urls {
+    margin: 50px auto;
+    width: 410px;
+    height: 40px;
+}
+
+.start-proc-urls a {
+    background: #bc3738;
+    color: black;
+    float: left;
+    display: block;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.start-proc-urls a:hover {
+    background: red;
+}
+
+.start-proc-urls a:first-child {
+    margin-right: 30px !important;
+}
+
+.hm-main.hm-steps {
+    margin: 60px auto;
+    padding: 60px 15px;
+    height: 598px;
+    margin: 60px auto;
+    background: #00000057;
+    padding: 60px 15px;
+    height: 598px;
+    background-image: url(/temp1/CanadamosaicDark.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #00000057;
+	transition-duration: .2s;
+}
+img.img-index {
+    margin: 24px;
+    width: 51px;
+}
+.hm-main.hm-steps:hover {
+    background-image: url(/temp1/canadianflag-coloured.jpg) !important;
+    transition-duration: .2s;
+}
+
+.hm-main.hm-steps h3 {
+    font-size: 20px;
+    line-height: 30px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.hm-main.hm-steps span {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: 35px auto;
+    background: rgb(147, 113, 112);
+}
+
+.hm-main.hm-steps span:hover + .hms-text-hover {
+    display: block !important;
+}
+
+.create .go-btn:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.stepper-dot {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #8f706e;
+    border-radius: 100px;
+    margin: 0px auto;
+    border: 4px solid transparent;
+}
+
+.stepper-dot.active {
+    border-color: #000;
+}
+
+.learn-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    min-height: 380px;
+    transition-duration: 0.2s;
+}
+
+.shadow-box-hover:hover {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    margin-top: -10px;
+    box-shadow: 0 22px 43px rgba(0,0,0,0.15);
+}
+
+.learn-btn {
+    background-color: lightgray;
+    color: black;
+    border: 2px solid transparent;
+    margin-bottom: 20px;
+}
+
+.learn-btn:hover {
+    border-color: black;
+    color: black;
+}
+
+.calculated-result {
+    font-size: 60px;
+}
+
+.btn-theme-secondary {
+    background-color: #300e0d;
+    color: #c7c7c7;
+    border-radius: 5px;
+}
+
+.btn-theme-secondary:hover {
+    background-color: lightgray;
+    color: #000;
+    transition-duration: .1s;
+}
+
+.btn-theme {
+    background-color: lightgray;
+    color: #000;
+    border-radius: 5px;
+}
+
+.btn-theme:hover {
+    background-color: #300e0d;
+    color: #c7c7c7;
+    transition-duration: 0s;
+}
+
+.btn-talk-lawyer {
+    font-size: 22px;
+}
+
+.set-score .uni-edu span label {
+    width: 100%;
+    max-width: 230px;
+}
+
+.lb-hidden {
+    display: none;
+}
+
+.lb-show {
+    display: block;
+}
+
+.cr-main .row.form input {
+    max-width: 250px;
+}
+
+.score-meansForYou .card {
+    min-height: 300px;
+}
+
+img.plane-img {
+    max-width: 300px;
+    position: absolute;
+    top: -55px;
+}
+
+@media (max-width: 443px) {
+    .start-proc-urls a:first-child {
+        margin-bottom: 15px;
+    }
+    
+    .start-proc-urls {
+        width: 190px;
+        height: 95px;
+    }
+}
+
+
+
+
+
+
+
+/****step2*****/
+.score-circle{
+    display: flex;
+    padding-left: 0px;
+    justify-content: center;
+}
+
+.score-circle li{
+    width: 70px;
+    height: 70px;
+    background-color: #917270;
+    border-radius: 50%;
+    list-style: none;
+    margin: 20px;
+}
+
+.score-meansForYou h1{
+    padding: 40px 0px;
+    padding-top: 0;
+}
+
+.score-meansForYou h2{
+    font-size: 1.7rem;
+    padding: 10px;
+}
+
+.score-meansForYou p{
+    padding: 10px 15px;
+}
+
+.increase-score{
+    background-image: url('/temp1/mosaic.jpg');
+    background-size: contain;
+    background-color: #1d2d3c;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.increase-score a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid transparent;
+}
+
+.increase-score a:hover {
+    /*border-color: #000;*/
+}
+
+.questions{
+    background: linear-gradient(to bottom, #fafafa 0%, #facdc8 100%);
+    padding-bottom: 150px;
+}
+
+.questions h6{
+    padding: 40px 0px;
+}
+
+.questions-list{
+}
+
+.questions-list i{
+    font-size: 25px;
+    color: #888;
+}
+
+.questions-list:last-child{
+    border-bottom: 1px solid #888;
+}
+
+.questions-list .card-header {
+    background: transparent;
+    border-top: 1px solid black;
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.questions-list .collapse, .questions-list .collapsing {
+    background: white;
+}
+
+.questions-list .card {
+    background: transparent;
+    border: none;
+}
+
+.questions-list .card-header h2 {
+    text-align: left;
+}
+
+.questions-list .card-header h2 button {
+    font-weight: bold;
+    display: block;
+    position: relative;
+    color: #717171;
+    width: 100%;
+    text-align: left;
+}
+
+.questions-list .card-header h2 button i {
+    position: absolute;
+    right: 0px;
+}
+
+/****end step2*****/
+
+span .help-block {
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+
+/****step4****/
+.legal-detail{
+    padding-top: 40px;
+}
+
+.legal-detail h3{
+    padding-bottom: 20px;
+}
+
+.legal-detail img{
+    padding-bottom: 20px;
+}
+.mainbar { min-height: 700px; }
+/****end step4****/
+
+.select-img {
+    border: 1px dashed black;
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.select-img input {
+    display: none;
+}
+
+.btn-upload-n {
+    color: white;
+    background: #300e0d;
+    font-size: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.upload-page h3 {
+    font-size: 22px;
+    min-height: 52px;
+}
+
+.upload-page .card-header {
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+.select-img img {
+    max-width: 100%;
+}
+
+span.upload-text {
+    margin-top: 60px;
+    display: inline-block;
+}
+.faq .card-header .btn {
+    white-space: initial;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+}
+
+.faq .card-header .btn i {
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.font-os {
+    font-family: 'Open Sans', sans-serif;
+}
+.success-box-theme {
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 20px;
+    background: #8f706e;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+.success-box-theme h5, .success-box-theme h3 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.success-box-theme {
+    font-weight: 300;
+}
+
+.success-box-theme h6 {
+    margin-bottom: 20px;
+}
+
+.success-box-theme h3 {
+    margin-bottom: 30px;
+}
+
+.success-box-theme .btn {
+    background: gainsboro;
+    max-width: 300px;
+    color: black;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.success-box-theme img {}
